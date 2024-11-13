@@ -1,5 +1,6 @@
 import React from "react";
 import { MuiTypography } from "./Mui/MuiTypography";
+import { MuiButton } from "./Mui/MuiButton";
 
 export default function Home() {
   return (
@@ -7,6 +8,8 @@ export default function Home() {
           
 
            <MuiTypography/>
+           <MuiButton/>
+
     </div>
   );
 }
