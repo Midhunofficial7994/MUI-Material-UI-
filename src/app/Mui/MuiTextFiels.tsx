@@ -9,8 +9,12 @@ const MuiTextFiels = () => {
     <div>
       <Stack spacing={4}>
         <Stack direction='row' spacing={2}>
-            <TextField label='Name'></TextField>
+            <TextField label='Name' variant='outlined'> </TextField>
+            <TextField label='Name' variant='filled'> </TextField>
+            <TextField label='Name' variant='standard'> </TextField>
         </Stack>
+        <Stack direction='row' spacing={2}>
+        <TextField label='Small secondary' size='small' color='secondary'> </TextField></Stack>
        </Stack>
     </div>
   )
