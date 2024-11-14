@@ -1,5 +1,6 @@
 import React from 'react'
-import { Button, Stack } from '@mui/material'
+import { Button, Stack,IconButton } from '@mui/material'
+import { Send } from '@mui/icons-material'
 
 export const MuiButton = () => {
   return (
@@ -19,7 +20,11 @@ export const MuiButton = () => {
         <Button variant='contained' color= 'success'>Success</Button>
       </Stack>
       
-        
+        <br /><br />
+        <Stack spacing= {2} direction= 'row'>
+<Button variant='contained'  href='https://www.google.com/search?q=wifi+speed+test+online&oq=wifi+speed+tes&gs_lcrp=EgZjaHJvbWUqBwgCEAAYgAQyCggAEAAYsQMYgAQyBggBEEUYOTIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIGCAcQBRhA0gEINzY0OWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8' startIcon= {<Send/>}> Send</Button>
+
+        </Stack>
     </div>
   )
 }
