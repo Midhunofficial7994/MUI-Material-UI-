@@ -1,3 +1,5 @@
+"use client"
+
 import { Box, TextField, MenuItem } from "@mui/material";
 import React, { useState } from "react";
 
@@ -13,7 +15,7 @@ const MuiSelect = () => {
         <TextField
           label="Select Country"
           select
-          value={country}
+          value={country}  
           onChange={handleChange}
           fullWidth
         >
