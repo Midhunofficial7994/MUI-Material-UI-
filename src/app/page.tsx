@@ -2,6 +2,7 @@ import React from "react";
 import { MuiTypography } from "./Mui/MuiTypography";
 import { MuiButton } from "./Mui/MuiButton";
 import MuiTextFiels from "./Mui/MuiTextFiels";
+import MuiSelect from "./Mui/MuiSelect";
 
 export default function Home() {
   return (
@@ -12,7 +13,8 @@ export default function Home() {
            <br />
            <MuiButton/>
            <br /><br />
-   <MuiTextFiels/>
+   <MuiTextFiels/><br /><br />
+   <MuiSelect/>
     </div>
   );
 }

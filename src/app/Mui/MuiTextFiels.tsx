@@ -15,6 +15,14 @@ const MuiTextFiels = () => {
         </Stack>
         <Stack direction='row' spacing={2}>
         <TextField label='Small secondary' size='small' color='secondary'> </TextField></Stack>
+       </Stack><br /><br />
+
+       <Stack direction='row' spacing={2}>
+        <TextField label='Password'
+        type='password'
+        helperText='Do not share your password with anyone'>
+
+        </TextField>
        </Stack>
     </div>
   )
