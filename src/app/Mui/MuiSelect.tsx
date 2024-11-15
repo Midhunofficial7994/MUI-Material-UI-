@@ -23,8 +23,11 @@ const MuiSelect = () => {
           <MenuItem value="US">USA</MenuItem>
           <MenuItem value="AU">AUSTRALIA</MenuItem>
           <MenuItem value="EN">ENGLAND</MenuItem>
+          <MenuItem value="EN">ENGLAND</MenuItem>
+          <MenuItem value="IR">IRELAND</MenuItem>
         </TextField>
       </Box>
+      
     </div>
   );
 };
