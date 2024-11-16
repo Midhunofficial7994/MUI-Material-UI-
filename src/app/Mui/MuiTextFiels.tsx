@@ -15,7 +15,7 @@ const MuiTextFiels = () => {
         </Stack>
         <Stack direction='row' spacing={2}>
         <TextField label='Small secondary' size='small' color='secondary'> </TextField></Stack>
-       </Stack><br /><br />
+       </Stack><br /><br /> 
 
        <Stack direction='row' spacing={2}>
         <TextField label='Password'
@@ -24,7 +24,7 @@ const MuiTextFiels = () => {
 
         </TextField>
        </Stack>
-    </div>
+    </div>  
   )
 }
 
