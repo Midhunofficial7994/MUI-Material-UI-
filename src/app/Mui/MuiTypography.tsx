@@ -12,7 +12,7 @@ export const MuiTypography =()=>{
 
             <Typography variant="subtitle1">Subtitle1</Typography>
             <Typography variant="subtitle2">Subtitle 2</Typography>
-            <Typography variant="subtitle3">Subtitle 3</Typography>
+            <Typography variant="subtitle2">Subtitle 3</Typography>
 
 
 <br />
